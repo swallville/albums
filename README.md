@@ -13,7 +13,7 @@ Into .bash_profile, paste:
 
 ```sh
 # Setting PATH for React-Native
-PATH="/Users/instabuy/npm/bin:${PATH}"
+PATH="${HOME}/npm/bin:${PATH}"
 export PATH
 # Android Settings
 export ANDROID_HOME=$HOME/Library/Android/sdk
